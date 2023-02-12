@@ -1,0 +1,143 @@
+body{
+    background-color:white;
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+     align-items: center;
+     padding-right: 20px;
+     padding-left: 20px;
+}
+@keyframes example{
+    1% {color: aqua ;}
+    25% {color: aquamarine;}
+    50% {color: white;}
+    100% {color:#4BB3FD ;}
+}
+h1{
+    
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    animation-name: example;
+    animation-duration: 4s;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+    
+     font-weight: lighter;
+}
+nav a:hover{
+    background-color: rgba(1, 0, 0, 0.1);
+}
+.co{
+    color: #3E6680;
+    font-family: papyrus;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.ne{
+    color: #3E6680;
+    font-family: papyrus;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #4BB3FD;
+    padding: 10px;
+   
+    
+}
+.ou{
+    color: #3E6680;
+    font-family: papyrus;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.con{
+    color: #3E6680;
+    font-family: papyrus;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.bl{
+    color: #3E6680;
+    font-family: papyrus;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+@keyframes examples{
+    1% {color: #3E6680 ;}
+    25% {color: #00487C;}
+    50% {color: #6699CC;}
+    100% {color:#4BB3FD} ;
+    }
+h2{
+    color: #4BB3FD;
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+    animation-name: examples;
+    animation-duration: 4s;
+}
+.para{
+    margin-left: 10px;
+}
+h4{
+    color: #4BB3FD;
+    font-family: fantasy;
+    font-size: x-large;
+}
+p{
+    color: black;
+    font-family: cursive;
+    font-size: medium;
+}
+input{
+    align-content: center;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: #4BB3FD;
+    justify-content: center;
+    font-family: serif;
+    font-size: larger;
+    margin-left: 200px;
+}
+
+.pr{
+    display: flex;
+    gap: 200px;
+    color: #3E6680;
+    font-family: 'Times New Roman', Times, serif;
+    border: #4BB3FD;
+    text-align: center;
+    margin-left: 50px;
+    font-size: large;
+}
+.img{
+    float:right;
+    margin-right: 20px;
+    mix-blend-mode: multiply;
+     
+    border-radius: 8px;
+}
+.car{
+    margin-left: 20px;
+}
+
+footer{
+    background-color: black;
+    text-decoration-color: #3E6680;
+
+}
